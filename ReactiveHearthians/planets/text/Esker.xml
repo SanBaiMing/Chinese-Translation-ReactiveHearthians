@@ -30,7 +30,14 @@
 	<DialogueNode>
 		<Name>Esker_RH_CoolThing_First</Name>
 		<EntryCondition>RH_COOLTHINGHELD</EntryCondition>
-		<DialogueTarget>Esker1</DialogueTarget>
+		<Dialogue>
+			<Page>Oh, hey, it’s you!</Page>
+			<Page>Ground control didn’t tell me you were launching. Long time no see!</Page>
+			<Page>Actually. I guess it’s been a long time since I’ve seen anyone.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<ReuseDialogueOptionsListFrom>Esker1</ReuseDialogueOptionsListFrom>
+		</DialogueOptionsList>
 	</DialogueNode>
 	<DialogueNode>
 		<Name>Esker_RH_CoolThing</Name>
@@ -40,6 +47,7 @@
 			<Page>Hey! Nice find, hatchling. Did you pick that up from somewhere around here?</Page>
 			<Page>My… that really is a beaut. Hornfels'll want that for sure!</Page>
 		</Dialogue>
+		<DialogueTarget>Esker2</DialogueTarget>
 	</DialogueNode>
 
 	<DialogueNode>
